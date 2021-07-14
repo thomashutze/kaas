@@ -5,7 +5,16 @@
   --white: #fbf5f3;
   --black: #161616;
 }
-
+.container
+{
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+  border:solid 2px black;
+  overflow:auto;
+}
 body,
 html {
   margin: 0;
